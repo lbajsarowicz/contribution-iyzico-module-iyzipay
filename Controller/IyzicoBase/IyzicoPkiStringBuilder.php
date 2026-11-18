@@ -91,8 +91,7 @@ class IyzicoPkiStringBuilder
 					}
 				}
 
-				if(end($data) == $result) 
-					$pki_value .= "]";
+				$pki_value .= "]";
 				
 			} else {
 

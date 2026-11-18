@@ -58,7 +58,6 @@ class IyzicoCheckoutForm extends \Magento\Framework\App\Action\Action
         \Magento\Customer\Model\Session $customerSession,
         \Magento\Quote\Model\Quote $quote,
         \Magento\Quote\Api\CartManagementInterface $cartManagement,
-        \Magento\Framework\Controller\ResultFactory $resultFactory,
         \Magento\Framework\Controller\Result\JsonFactory $resultJsonFactory,
         \Magento\Quote\Api\CartRepositoryInterface $quoteRepository,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
